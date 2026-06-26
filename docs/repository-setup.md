@@ -20,7 +20,8 @@ Use this checklist when publishing Loop Engineering to GitHub.
 - Required status check: `Check repository foundation`.
 - Require conversation resolution before merging.
 - Enable Dependabot alerts.
-- Enable Dependabot security updates.
+- Enable Dependabot for GitHub Actions immediately.
+- Enable package-manager Dependabot only after real runtime dependencies are added.
 - Enable secret scanning and push protection if available.
 - Disable force pushes on protected branches.
 - Squash merge by default unless a linear history policy is preferred.
