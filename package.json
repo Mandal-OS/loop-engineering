@@ -1,0 +1,17 @@
+{
+  "name": "loop-engineering",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "description": "Production-grade repository foundation for Loop Engineering.",
+  "scripts": {
+    "check": "node scripts/check-repo.mjs",
+    "check:docs": "node scripts/check-docs.mjs",
+    "check:links": "node scripts/check-links.mjs",
+    "check:secrets": "node scripts/check-secrets.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

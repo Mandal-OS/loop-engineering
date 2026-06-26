@@ -1,0 +1,48 @@
+name: Launch Audit
+description: Request a production-grade website or product launch audit.
+title: "[Launch Audit]: "
+labels:
+  - audit
+  - launch-readiness
+body:
+  - type: input
+    id: target
+    attributes:
+      label: Target URL or Scope
+      placeholder: https://example.com
+    validations:
+      required: true
+  - type: textarea
+    id: goals
+    attributes:
+      label: Goals
+      description: What does a successful launch or audit outcome look like?
+    validations:
+      required: true
+  - type: textarea
+    id: critical_flows
+    attributes:
+      label: Critical Flows
+      description: List forms, signup, checkout, booking, auth, or other important flows.
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - label: Technical health
+        - label: Performance and Core Web Vitals
+        - label: Security
+        - label: SEO
+        - label: Mobile and accessibility
+        - label: UX and conversion
+        - label: Frontend code quality
+        - label: Critical bug detection
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints
+      description: Deadlines, environments, credentials, test accounts, or areas to avoid.
+    validations:
+      required: false
