@@ -14,3 +14,9 @@ audits/
 ```
 
 Do not commit sensitive customer data, private logs, credentials, or production secrets.
+
+Create a new audit folder with:
+
+```powershell
+npm run audit:new -- https://example.com
+```

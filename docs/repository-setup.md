@@ -17,6 +17,7 @@ Use this checklist when publishing Loop Engineering to GitHub.
 - Default branch: `main`.
 - Require pull requests before merging.
 - Require status checks to pass before merging.
+- Required status check: `Check repository foundation`.
 - Require conversation resolution before merging.
 - Enable Dependabot alerts.
 - Enable Dependabot security updates.

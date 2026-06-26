@@ -17,6 +17,7 @@ Add product code under `apps/`, shared code under `packages/`, and launch/audit 
 - GitHub issue templates, pull request template, Dependabot config, and repository quality workflow.
 - Local repository checks for required docs, broken internal Markdown links, and common leaked secret patterns.
 - Practical playbooks for performance budgets, security headers, SEO, conversion, architecture, and launch readiness.
+- An audit scaffold command for consistent website audit evidence and reports.
 
 ## Repository Map
 
@@ -43,6 +44,12 @@ npm run check
 
 The default checks validate the repository foundation without requiring external services.
 
+Create a new website audit folder:
+
+```powershell
+npm run audit:new -- https://example.com
+```
+
 ## Launch Standard
 
 Loop Engineering work should meet these minimums before public launch:
@@ -65,7 +72,15 @@ Before pushing this repository to GitHub, decide:
 - License model: proprietary by default here, or open-source if you choose.
 - Primary project type: company profile, portfolio site, client audit toolkit, product app, or engineering handbook.
 
-Use [Repository Setup](docs/repository-setup.md) for the exact GitHub configuration checklist.
+Use [Owner Inputs](docs/owner-inputs.md) and [Repository Setup](docs/repository-setup.md) for the exact GitHub configuration checklist.
+
+## Operating Docs
+
+- [Roadmap](docs/roadmap.md)
+- [Release Process](docs/release-process.md)
+- [Operations Runbook](docs/operations-runbook.md)
+- [Accessibility Playbook](docs/accessibility-playbook.md)
+- [Analytics and Measurement](docs/analytics-measurement.md)
 
 ## Working Agreement
 

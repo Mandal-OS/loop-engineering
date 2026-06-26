@@ -42,3 +42,31 @@ Use a decision record when changing:
 - Performance budgets.
 
 Start with [0001 Repository Foundation](decisions/0001-repository-foundation.md).
+
+## Add Application Code
+
+When the project identity is decided, use one of these patterns:
+
+Company or portfolio website:
+
+```text
+apps/web/
+```
+
+Reusable audit toolkit:
+
+```text
+packages/audit-core/
+apps/cli/
+```
+
+Product monorepo:
+
+```text
+apps/web/
+apps/api/
+packages/ui/
+packages/config/
+```
+
+Keep the first application commit small: framework scaffold, health page, basic checks, and deployment notes.

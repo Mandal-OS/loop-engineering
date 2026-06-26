@@ -6,6 +6,7 @@
   "type": "module",
   "description": "Production-grade repository foundation for Loop Engineering.",
   "scripts": {
+    "audit:new": "node scripts/new-audit.mjs",
     "check": "node scripts/check-repo.mjs",
     "check:docs": "node scripts/check-docs.mjs",
     "check:links": "node scripts/check-links.mjs",

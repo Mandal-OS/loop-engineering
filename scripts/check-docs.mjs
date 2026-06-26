@@ -14,11 +14,17 @@ const requiredFiles = [
   "CHANGELOG.md",
   "LICENSE.md",
   "docs/repository-setup.md",
+  "docs/owner-inputs.md",
   "docs/launch-readiness.md",
   "docs/performance-budget.md",
   "docs/security-baseline.md",
   "docs/seo-playbook.md",
+  "docs/accessibility-playbook.md",
+  "docs/analytics-measurement.md",
   "docs/conversion-playbook.md",
+  "docs/operations-runbook.md",
+  "docs/release-process.md",
+  "docs/roadmap.md",
   "docs/architecture.md",
   "docs/audit-template.md"
 ];

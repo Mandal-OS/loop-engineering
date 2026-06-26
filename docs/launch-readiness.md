@@ -43,3 +43,13 @@ Score each area from 0 to 10, then multiply by 10 for a 100-point launch score.
 - Verify analytics events without collecting unnecessary personal data.
 - Confirm backups and rollback.
 - Create a launch issue with owner, launch date, risks, and go or no-go decision.
+
+## Audit Workspace
+
+Create a dated audit workspace before collecting evidence:
+
+```powershell
+npm run audit:new -- https://example.com
+```
+
+Store screenshots, Lighthouse exports, crawl output, and network evidence in the generated folder under `audits/`.
