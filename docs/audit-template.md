@@ -2,6 +2,12 @@
 
 Use this format for production-grade website audits.
 
+For a fast first pass, generate a starter report:
+
+```powershell
+npm run audit:url -- https://example.com
+```
+
 ## 1. Executive Summary
 
 - Overall rating:

@@ -50,6 +50,12 @@ Create a new website audit folder:
 npm run audit:new -- https://example.com
 ```
 
+Run a lightweight website audit:
+
+```powershell
+npm run audit:url -- https://example.com
+```
+
 ## Launch Standard
 
 Loop Engineering work should meet these minimums before public launch:
@@ -79,6 +85,7 @@ Use [Owner Inputs](docs/owner-inputs.md) and [Repository Setup](docs/repository-
 - [Roadmap](docs/roadmap.md)
 - [Release Process](docs/release-process.md)
 - [Operations Runbook](docs/operations-runbook.md)
+- [Audit CLI](docs/audit-cli.md)
 - [Accessibility Playbook](docs/accessibility-playbook.md)
 - [Analytics and Measurement](docs/analytics-measurement.md)
 

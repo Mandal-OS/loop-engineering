@@ -7,9 +7,11 @@
   "description": "Production-grade repository foundation for Loop Engineering.",
   "scripts": {
     "audit:new": "node scripts/new-audit.mjs",
+    "audit:url": "node scripts/audit-url.mjs",
     "check": "node scripts/check-repo.mjs",
     "check:docs": "node scripts/check-docs.mjs",
     "check:links": "node scripts/check-links.mjs",
+    "check:scripts": "node scripts/check-scripts.mjs",
     "check:secrets": "node scripts/check-secrets.mjs"
   },
   "engines": {

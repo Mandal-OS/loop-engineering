@@ -10,6 +10,7 @@ Status: complete locally.
 - CI quality gate.
 - Security and contribution policies.
 - Audit templates.
+- Lightweight website audit CLI.
 - Launch, performance, SEO, accessibility, conversion, and operations playbooks.
 
 ## Phase 2: GitHub Publication

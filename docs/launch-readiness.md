@@ -53,3 +53,11 @@ npm run audit:new -- https://example.com
 ```
 
 Store screenshots, Lighthouse exports, crawl output, and network evidence in the generated folder under `audits/`.
+
+Run a lightweight URL audit:
+
+```powershell
+npm run audit:url -- https://example.com
+```
+
+Use the generated report as a first pass, then validate with browser-based testing.

@@ -33,6 +33,7 @@ performance
 security
 seo
 web-audit
+audit-cli
 launch-readiness
 full-stack
 ```

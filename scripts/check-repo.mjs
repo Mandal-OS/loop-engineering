@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const checks = [
+  "scripts/check-scripts.mjs",
   "scripts/check-docs.mjs",
   "scripts/check-links.mjs",
   "scripts/check-secrets.mjs"
