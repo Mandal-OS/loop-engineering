@@ -46,6 +46,8 @@ Status: pending.
 - Add accessibility checks to CI.
 - Add SEO validation.
 
+Initial Lighthouse CI and CodeQL workflows are already present. Future app work should tighten thresholds and expand analysis coverage.
+
 ## Phase 5: Public Launch
 
 Status: pending.

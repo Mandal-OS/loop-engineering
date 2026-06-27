@@ -17,6 +17,7 @@ const requiredFiles = [
   "docs/repository-setup.md",
   "docs/owner-inputs.md",
   "docs/audit-cli.md",
+  "docs/lighthouse-codeql.md",
   "docs/launch-readiness.md",
   "docs/performance-budget.md",
   "docs/security-baseline.md",

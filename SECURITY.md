@@ -63,3 +63,7 @@ Production web properties should enforce:
 - Server-side validation and output encoding for forms and user-generated content.
 
 See [Security Baseline](docs/security-baseline.md) for exact header examples.
+
+## Automated Security Checks
+
+This repository uses CodeQL for static analysis of JavaScript automation and GitHub Actions workflows. Findings should be reviewed from the GitHub Security tab before merging security-sensitive application, deployment, authentication, or data-handling changes.
