@@ -16,7 +16,7 @@ This repository currently contains documentation, automation, and future project
 
 Do not open public issues for sensitive vulnerabilities.
 
-Send a private report to the repository owner or security contact once configured in GitHub. Include:
+Use GitHub private vulnerability reporting when available, or contact the repository owner privately. Include:
 
 - Affected files, routes, domains, or systems.
 - Reproduction steps.
