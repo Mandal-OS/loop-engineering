@@ -10,7 +10,7 @@ Lighthouse CI runs a real browser audit against:
 https://gigworlds.net
 ```
 
-It checks performance, accessibility, best practices, and SEO signals. The current workflow is intentionally warning-based because it audits a live external website. Live network, hosting, CDN, and third-party script variance can change scores between runs.
+It checks performance, accessibility, best practices, and SEO signals. The current workflow is intentionally warning-based because it audits a live external website. Live network, hosting, CDN, third-party script variance, and existing production issues can change scores between runs.
 
 Run locally:
 
@@ -34,7 +34,7 @@ The GitHub workflow runs:
 - Weekly on Monday.
 - When Lighthouse configuration changes on `main`.
 
-When the target site and budgets are stable, warning thresholds can be changed to failing assertions.
+When the target site and budgets are stable, warning thresholds can be changed to failing assertions. Until then, the workflow should stay green while still uploading reports and printing actionable warnings.
 
 ## CodeQL
 
