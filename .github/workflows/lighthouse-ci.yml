@@ -35,7 +35,7 @@ jobs:
         run: npm ci
 
       - name: Setup Chrome
-        uses: browser-actions/setup-chrome@v2
+        uses: browser-actions/setup-chrome@e574b4b3a21156ab45dd6b5f67e884fd26eed829
         with:
           chrome-version: stable
 

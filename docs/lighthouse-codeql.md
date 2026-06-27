@@ -26,6 +26,7 @@ lhci-reports/
 ```
 
 Local runs require Chrome. The GitHub workflow installs stable Chrome explicitly before running Lighthouse CI.
+The Chrome setup action is pinned to a commit SHA because it is a third-party GitHub Action.
 
 The GitHub workflow runs:
 
