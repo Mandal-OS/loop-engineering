@@ -9,7 +9,6 @@ module.exports = {
       }
     },
     assert: {
-      preset: "lighthouse:recommended",
       assertions: {
         "categories:performance": ["warn", { minScore: 0.5 }],
         "categories:accessibility": ["warn", { minScore: 0.8 }],
