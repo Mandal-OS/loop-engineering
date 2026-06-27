@@ -12,7 +12,8 @@
     "check:docs": "node scripts/check-docs.mjs",
     "check:links": "node scripts/check-links.mjs",
     "check:scripts": "node scripts/check-scripts.mjs",
-    "check:secrets": "node scripts/check-secrets.mjs"
+    "check:secrets": "node scripts/check-secrets.mjs",
+    "lighthouse": "npx --yes @lhci/cli@0.15.1 autorun --config=./lighthouserc.cjs"
   },
   "engines": {
     "node": ">=20"

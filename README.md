@@ -82,6 +82,7 @@ npm run audit:url -- https://example.com
 | `npm run check:scripts` | Syntax-check local automation scripts |
 | `npm run audit:new -- https://example.com` | Create an empty audit evidence workspace |
 | `npm run audit:url -- https://example.com` | Generate a lightweight website audit report |
+| `npm run lighthouse` | Run Lighthouse CI against `https://gigworlds.net` |
 
 ## Launch Standard
 
@@ -117,6 +118,7 @@ This repository is public for visibility and collaboration. The current license 
 - [Release Process](docs/release-process.md)
 - [Operations Runbook](docs/operations-runbook.md)
 - [Audit CLI](docs/audit-cli.md)
+- [Lighthouse CI and CodeQL](docs/lighthouse-codeql.md)
 - [Accessibility Playbook](docs/accessibility-playbook.md)
 - [Analytics and Measurement](docs/analytics-measurement.md)
 
