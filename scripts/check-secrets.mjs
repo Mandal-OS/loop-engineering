@@ -1,4 +1,4 @@
-import { readFileSync, readdirSync, statSync } from "node:fs";
+import { readFileSync, readdirSync } from "node:fs";
 import { join, relative } from "node:path";
 import { fileURLToPath } from "node:url";
 import { dirname } from "node:path";
@@ -42,12 +42,11 @@ function walk(dir) {
       continue;
     }
 
-    const stats = statSync(fullPath);
-    if (stats.size > 1024 * 1024) {
+    const buffer = readFileSync(fullPath);
+    if (buffer.length > 1024 * 1024) {
       continue;
     }
 
-    const buffer = readFileSync(fullPath);
     if (!isProbablyText(buffer)) {
       continue;
     }
