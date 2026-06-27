@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: Security Issue
-    url: https://github.com/
-    about: Do not disclose sensitive vulnerabilities publicly. Configure the private security contact after the repo is published.
+    url: https://github.com/Mandal-OS/loop-engineering/security/policy
+    about: Do not disclose sensitive vulnerabilities publicly. Use the security policy for private reporting guidance.

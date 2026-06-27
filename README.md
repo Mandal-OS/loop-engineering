@@ -1,8 +1,26 @@
 # Loop Engineering
 
+[![Repo Quality](https://github.com/Mandal-OS/loop-engineering/actions/workflows/repo-quality.yml/badge.svg)](https://github.com/Mandal-OS/loop-engineering/actions/workflows/repo-quality.yml)
+![Security](https://img.shields.io/badge/security-launch--ready%20baseline-0f766e)
+![Performance](https://img.shields.io/badge/performance-Core%20Web%20Vitals-2563eb)
+![SEO](https://img.shields.io/badge/SEO-technical%20audit-7c3aed)
+![License](https://img.shields.io/badge/license-proprietary-lightgrey)
+
 Production-grade engineering workspace for building, auditing, and launching fast, secure, SEO-ready web products.
 
 This repository is set up as the operating base for Loop Engineering: documentation, standards, checklists, automation, and future application code can live here without becoming messy as the project grows.
+
+## At A Glance
+
+Loop Engineering is built around one operating principle: public launches should be fast, secure, crawlable, accessible, measurable, and recoverable.
+
+This repo currently provides the foundation:
+
+- A lightweight website audit CLI.
+- Launch-readiness playbooks.
+- Security, performance, SEO, accessibility, analytics, and conversion standards.
+- GitHub automation for repository quality.
+- A clean monorepo-ready structure for future product code.
 
 ## Status
 
@@ -56,6 +74,15 @@ Run a lightweight website audit:
 npm run audit:url -- https://example.com
 ```
 
+## Commands
+
+| Command | Purpose |
+| --- | --- |
+| `npm run check` | Run the full repository quality gate |
+| `npm run check:scripts` | Syntax-check local automation scripts |
+| `npm run audit:new -- https://example.com` | Create an empty audit evidence workspace |
+| `npm run audit:url -- https://example.com` | Generate a lightweight website audit report |
+
 ## Launch Standard
 
 Loop Engineering work should meet these minimums before public launch:
@@ -79,6 +106,10 @@ Before pushing this repository to GitHub, decide:
 - Primary project type: company profile, portfolio site, client audit toolkit, product app, or engineering handbook.
 
 Use [Owner Inputs](docs/owner-inputs.md) and [Repository Setup](docs/repository-setup.md) for the exact GitHub configuration checklist.
+
+## Public Repo Note
+
+This repository is public for visibility and collaboration. The current license is proprietary until the owner explicitly chooses an open-source license such as MIT or Apache-2.0.
 
 ## Operating Docs
 

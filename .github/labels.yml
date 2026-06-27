@@ -1,0 +1,30 @@
+# Canonical label set for Loop Engineering.
+# GitHub labels are also configured through the GitHub CLI.
+
+- name: bug
+  color: d73a4a
+  description: Something is broken or behaving incorrectly.
+- name: security
+  color: b60205
+  description: Security vulnerability, hardening, or risk reduction.
+- name: performance
+  color: 1d76db
+  description: Core Web Vitals, runtime cost, caching, or payload work.
+- name: seo
+  color: 5319e7
+  description: Search metadata, crawling, indexing, schema, or links.
+- name: accessibility
+  color: 0e8a16
+  description: Keyboard, semantics, contrast, labels, or assistive technology.
+- name: audit
+  color: fbca04
+  description: Website audit evidence, reports, or tooling.
+- name: launch-readiness
+  color: fef2c0
+  description: Release, scale, operations, and production-readiness work.
+- name: documentation
+  color: 0075ca
+  description: Documentation, examples, playbooks, or repo guidance.
+- name: good first issue
+  color: 7057ff
+  description: Small, well-scoped improvement for new contributors.
